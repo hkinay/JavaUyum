@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Kosullar {
     public static void main(String[] args) {
         //INPUT ALMAYI SAĞLAYAN SINIF SCANNER
-        Scanner al = new Scanner(System.in);
+        Scanner almak = new Scanner(System.in);
         System.out.println("Yaşınızı Giriniz : ");
-        int yas = al.nextInt();
+        int yas = almak.nextInt();
 
         //koşul cümlesi
 
@@ -20,20 +20,63 @@ public class Kosullar {
         System.out.println("Ternary Operatörü Kullanımı");
         if (yas>=18) System.out.println("Ehliyet alabilirsin 2");
 
+        /*
+        Ternary
+        durum ? a:b;
+         */
+        int x = 10;
+        int y;
+
+        y = (x==1) ? 45:50;
+        System.out.println(y);
+        System.out.println(x>y);
+
+
+        //IF - ELSE IF - ELSE
         System.out.println("Matematik puanınızı giriniz : ");
-        int matpuan = al.nextInt();
+        int matpuan = almak.nextInt();
         if(matpuan >= 80){
             System.out.println("Yüksek");
         }
-        else if (matpuan >= 60){
+       else if (matpuan >= 60){
             System.out.println("Orta");
         }
-        else if(matpuan>=40){
+        else if(matpuan >= 40){
             System.out.println("Vasat");
         }
         else{
             System.out.println("Kötü");
         }
+
+        //SWITCH - CASE
+        System.out.println("Bir sayı giriniz :");
+        int gun = almak.nextInt();
+        switch (gun){
+            case 1:
+                System.out.println("Pazartesi");
+                break;
+            case 2:
+                System.out.println("Salı");
+                break;
+            case 3:
+                System.out.println("Çarşamba"); // break yok
+            case 4:
+                System.out.println("Perşembe");
+                break;
+            case 5:
+                System.out.println("Cuma");
+                break;
+            case 6:
+                System.out.println("Cumartesi");
+                break;
+            case 7:
+                System.out.println("Pazar");
+                break;
+            default:
+                System.out.println("Bu varsayılan bir durumdur");
+        }
+
+
 
 
     }
