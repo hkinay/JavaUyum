@@ -5,7 +5,16 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+
+        System.out.println("Merhaba Dünya");
+        System.out.print("Bu kısım yanyana gelir");
+        System.out.print("boşluk yok");
+        System.out.println(); // Notunuzu düşebilirsiniz. Bu ifade 1 satır boşluk bırakır
+        System.out.printf("Bu yazı biçimi formatlıdır %s ile kullanılır%n","prinf");
+        System.out.println("Alt kısma  n ile geçer ");
+        System.out.println("Bu bölümde 'a'  karakterini inceliyoruz.");
+
+     System.out.println("Hello and welcome!");
         System.out.println("Merhaba Dünya");
         int a;
         double b;
@@ -31,13 +40,18 @@ public class Main {
         System.out.println("------------------------------");
         int x = 0;
         x = x + 1;
-        System.out.println(x);
+        System.out.println(x); // x 1 olur
         x += 1;
-        System.out.println(x);
+        System.out.println(x); // x 2 olur
         x++;
-        System.out.println(x);
+        System.out.println(x); // x 3 olur
         ++x;
-        System.out.println(x);
+        System.out.println(x); // x 4 olur
+
+
+
+
+
 
 
     }
