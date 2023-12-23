@@ -4,8 +4,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Donguler.DonguFonksiyonu();
+        //Donguler.DonguFonksiyonu();
          // Kosullar.Kosul();
+        SayiTahmin.SayiOyunu();
 
     }
     public static void DegiskenTanimlama(){
