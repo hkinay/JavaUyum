@@ -3,9 +3,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
 
+        Donguler.DonguFonksiyonu();
+         // Kosullar.Kosul();
+
+    }
+    public static void DegiskenTanimlama(){
         System.out.println("Merhaba Dünya");
         System.out.print("Bu kısım yanyana gelir");
         System.out.print("boşluk yok");
@@ -14,9 +17,9 @@ public class Main {
         System.out.println("Alt kısma  n ile geçer ");
         System.out.println("Bu bölümde 'a'  karakterini inceliyoruz.");
 
-     System.out.println("Hello and welcome!");
+        System.out.println("Hello and welcome!");
         System.out.println("Merhaba Dünya");
-        int a;
+        int a; //NULL
         double b;
         float c;
         char k;
@@ -26,6 +29,8 @@ public class Main {
         long l;
         short y;
         boolean t = true;
+        String isim = "Ahmet"; // String tanımlama
+        isim.charAt(2);
 
         System.out.println(a);
         System.out.println("a ile b nin toplamı " + a + b);
@@ -54,5 +59,9 @@ public class Main {
 
 
 
+
     }
+
+
 }
+

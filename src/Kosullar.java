@@ -1,7 +1,8 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Kosullar {
-    public static void main(String[] args) {
+    public static void Kosul() {
         //INPUT ALMAYI SAĞLAYAN SINIF SCANNER
         Scanner almak = new Scanner(System.in);
         System.out.println("Yaşınızı Giriniz : ");
@@ -38,10 +39,11 @@ public class Kosullar {
         if(matpuan >= 80){
             System.out.println("Yüksek");
         }
-       else if (matpuan >= 60){
+
+     else if (matpuan >= 60){
             System.out.println("Orta");
         }
-        else if(matpuan >= 40){
+       else if(matpuan >= 40){
             System.out.println("Vasat");
         }
         else{
@@ -74,6 +76,20 @@ public class Kosullar {
                 break;
             default:
                 System.out.println("Bu varsayılan bir durumdur");
+        }
+        int sayi = 3;
+        switch (sayi){
+            case 1:
+                System.out.println("Bu 1. case dir");
+                break;
+            case 2:
+                System.out.println("Bu 2. case dir"); // break yok
+            case 5:
+                System.out.println("Bu 3. case dir");
+                break;
+            default:
+                System.out.println("bu varsayılan olarak çalışır");
+
         }
 
 
