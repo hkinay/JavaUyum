@@ -21,6 +21,17 @@ public class Donguler {
 
         }
 
+        System.out.println("----------While Döngüsü -------------");
+        int a = 0;
+
+        while(a < sayi){
+
+            if (a % 2 == 1){
+                System.out.println(a);
+            }
+
+            a += 1;
+        }
 
 
 
