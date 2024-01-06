@@ -40,5 +40,45 @@ public class Donguler {
 
 
     }
+    public static int Faktoriyel(int a){
+//Özyinelemeli Fonksiyon kendi kendini çağırır
+
+        if (a == 0 || a == 1) {
+            return 1;
+        }
+        else{
+            return a * Faktoriyel(a-1);
+        }
+
+    }
+
+    public static void FaktoriyelDongu(){
+        Scanner al = new Scanner(System.in); //Scanner objesi oluştu
+        System.out.println("Bana bir tamsayı ver: ");
+        int n = al.nextInt();
+
+        int faktoriyeltoplam = 1;
+        for (int i = 1;i<=n;++i){
+
+            faktoriyeltoplam *= i;
+        }
+
+
+        System.out.println(faktoriyeltoplam);
+
+
+
+    }
+    public static void IciceDongu(){
+        for (int i = 0; i < 5; i++) {
+            System.out.printf("%4d",i);
+
+            for (int j = 1; j < 6; j++) {
+                System.out.print(i * j);
+
+            }
+
+        }
+    }
 
 }

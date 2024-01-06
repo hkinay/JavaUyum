@@ -5,50 +5,26 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
             //Donguler.DonguFonksiyonu();
           // Kosullar.Kosul();
             //    SayiTahmin.SayiOyunu();
 
         /*Faktoriyel Fonksiyonlar
-
-            int sonuc;
-             sonuc = Faktoriyel(10);
-             System.out.println(sonuc);
+int sonuc;
+        sonuc = Donguler.Faktoriyel(10);
+        System.out.println(sonuc);
+         Donguler.FaktoriyelDongu();
         */
- FaktoriyelDongu();
 
+        //İçiçe Döngü
+        Donguler.IciceDongu();
 
-
-    }
-    public static int Faktoriyel(int a){
-
-
-        if (a == 0 || a == 1) {
-            return 1;
-        }
-        else{
-            return a * Faktoriyel(a-1);
-        }
-
-    }
-
-    public static void FaktoriyelDongu(){
-        Scanner al = new Scanner(System.in); //Scanner objesi oluştu
-        System.out.println("Bana bir tamsayı ver: ");
-        int n = al.nextInt();
-
-        int faktoriyeltoplam = 1;
-        for (int i = 1;i<=n;++i){
-
-            faktoriyeltoplam *= i;
-        }
-
-
-        System.out.println(faktoriyeltoplam);
 
 
 
     }
+
     public static void DegiskenTanimlama(){
         System.out.println("Merhaba Dünya");
         System.out.print("Bu kısım yanyana gelir");
