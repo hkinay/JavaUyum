@@ -9,18 +9,21 @@ public class Main {
           // Kosullar.Kosul();
             //    SayiTahmin.SayiOyunu();
 
-     int sonuc;
-     sonuc = Faktoriyel(10);
-        System.out.println(sonuc);
+        /*Faktoriyel Fonksiyonlar
+
+            int sonuc;
+             sonuc = Faktoriyel(10);
+             System.out.println(sonuc);
+        */
+ FaktoriyelDongu();
+
+
 
     }
     public static int Faktoriyel(int a){
-       /* Scanner al = new Scanner(System.in);
-        System.out.println("Bana bir sayı ver: ");
-        int n = al.nextInt();
-*/
 
-        if (a == 0 || a == 1){
+
+        if (a == 0 || a == 1) {
             return 1;
         }
         else{
@@ -30,6 +33,20 @@ public class Main {
     }
 
     public static void FaktoriyelDongu(){
+        Scanner al = new Scanner(System.in); //Scanner objesi oluştu
+        System.out.println("Bana bir tamsayı ver: ");
+        int n = al.nextInt();
+
+        int faktoriyeltoplam = 1;
+        for (int i = 1;i<=n;++i){
+
+            faktoriyeltoplam *= i;
+        }
+
+
+        System.out.println(faktoriyeltoplam);
+
+
 
     }
     public static void DegiskenTanimlama(){
