@@ -62,21 +62,34 @@ public class Donguler {
 
             faktoriyeltoplam *= i;
         }
-
-
         System.out.println(faktoriyeltoplam);
-
-
 
     }
     public static void IciceDongu(){
-        for (int i = 0; i < 5; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.printf("%4d",i);
 
-            for (int j = 1; j < 6; j++) {
-                System.out.print(i * j);
+            for (int j = 1; j <=10; j++) {
+                System.out.printf("%4d", i * j);
 
             }
+            System.out.println();
+
+        }
+    }
+    public static void BreakOrnegi(){
+        int i = 1;
+        while (i>0){
+            if (i == 8 ) {
+                break;
+            }
+            else if (i == 4) {
+                continue;
+            }
+            else{
+                System.out.println(i);
+            }
+            i++;
 
         }
     }

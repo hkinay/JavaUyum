@@ -15,12 +15,12 @@ int sonuc;
         sonuc = Donguler.Faktoriyel(10);
         System.out.println(sonuc);
          Donguler.FaktoriyelDongu();
+         Donguler.IciceDongu();
         */
 
         //İçiçe Döngü
-        Donguler.IciceDongu();
 
-
+       Donguler.BreakOrnegi();
 
 
     }
