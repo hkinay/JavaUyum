@@ -1,12 +1,35 @@
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        //Donguler.DonguFonksiyonu();
-         // Kosullar.Kosul();
-        SayiTahmin.SayiOyunu();
+            //Donguler.DonguFonksiyonu();
+          // Kosullar.Kosul();
+            //    SayiTahmin.SayiOyunu();
+
+     int sonuc;
+     sonuc = Faktoriyel(10);
+        System.out.println(sonuc);
+
+    }
+    public static int Faktoriyel(int a){
+       /* Scanner al = new Scanner(System.in);
+        System.out.println("Bana bir sayı ver: ");
+        int n = al.nextInt();
+*/
+
+        if (a == 0 || a == 1){
+            return 1;
+        }
+        else{
+            return a * Faktoriyel(a-1);
+        }
+
+    }
+
+    public static void FaktoriyelDongu(){
 
     }
     public static void DegiskenTanimlama(){
