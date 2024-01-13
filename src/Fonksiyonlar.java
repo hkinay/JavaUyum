@@ -35,4 +35,9 @@ public static int Topla(int a){
         return a + Topla(a-1);
 
 }
+public static int Faktoriyel(int b){
+        if (b == 1) return 1;
+        return b * Faktoriyel(b-1);
+    }
+
 }

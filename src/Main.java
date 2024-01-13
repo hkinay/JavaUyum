@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -12,10 +13,23 @@ public class Main {
         birnesne.NesneGerektiren();
         int x = birnesne.Max(5,10);
         System.out.println(x);
-int y;
-y = 5;
-
+        int y;
+        y = 5;
         String a = "Araba";
+        a.toUpperCase();
+
+        double sonuc = Math.pow(5,3);
+        Math.abs(-3);
+
+        Random yeninesne = new Random();
+        int uretilensayi = yeninesne.nextInt(100);
+        System.out.println(uretilensayi);
+
+
+        System.out.println(sonuc);
+
+        Fonksiyonlar.Faktoriyel(5);
+
 
             //Donguler.DonguFonksiyonu();
           //Kosullar.Kosul();
