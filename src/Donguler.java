@@ -94,4 +94,10 @@ public class Donguler {
         }
     }
 
+    public static void RideMethod(){
+
+    }
+
+
+
 }

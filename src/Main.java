@@ -4,11 +4,22 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Fonksiyonlar.FonkDeneme();
+        int c = Fonksiyonlar.IntDeneme(5,10);
+        int d = Fonksiyonlar.IntDeneme(5,6,7);
+        System.out.printf("birinci sonuc %d, ikinci sonuç %d %n",c,d);
+        Fonksiyonlar birnesne = new Fonksiyonlar();
+        birnesne.NesneGerektiren();
+        int x = birnesne.Max(5,10);
+        System.out.println(x);
+int y;
+y = 5;
 
+        String a = "Araba";
 
             //Donguler.DonguFonksiyonu();
-          // Kosullar.Kosul();
-            //    SayiTahmin.SayiOyunu();
+          //Kosullar.Kosul();
+            //SayiTahmin.SayiOyunu();
 
         /*Faktoriyel Fonksiyonlar
 int sonuc;
@@ -19,8 +30,9 @@ int sonuc;
         */
 
         //İçiçe Döngü
+        // Donguler.BreakOrnegi();
 
-       Donguler.BreakOrnegi();
+
 
 
     }
