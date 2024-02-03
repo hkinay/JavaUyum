@@ -4,6 +4,7 @@ public class Stringler {
 
 
    public static void StringCalisma(){
+      int g = 100234;
 
       String a = "Esenyurt Belediyesi";
       String b = new String("Esenyurt Belediyesi");
@@ -24,6 +25,10 @@ public class Stringler {
       System.out.printf("Karakter değiştirmek için %s replace kullanılır%n",a.replace("e","a"));
       System.out.printf("substring istenilen bölümü kesmeyi sağlar %s%n",a.substring(4,8));
       System.out.printf("substring başlangıç belirtilerek de kullanılabilir %s%n",a.substring(8));
+      System.out.printf("contains String ifadenin istenilen karakteri barındırma kontrolünü yapar %s",a.contains("a"));
+      System.out.printf("%s",a.startsWith("B"));
+      System.out.printf("Valueof %s stringe çevirir",a.valueOf(g));
+      //System.out.printf("toString stringe çevirir %s",a.toString(g));
 
 
 
@@ -35,6 +40,21 @@ public class Stringler {
 
 
 
+
+
+
+
+
+
+
+
+   }
+
+   public static void StringBuilderCalisma(){
+      StringBuilder yeniString = new StringBuilder("String Builder Oluşturma");
+      yeniString.append(" Yeni Ekleme");
+      System.out.println(yeniString);
+      System.out.println(yeniString.reverse());
 
 
    }
