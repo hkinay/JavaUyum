@@ -5,6 +5,10 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Stringler.StringCalisma();
+
+
+/* METHOD ÇALIŞMALARI
         Fonksiyonlar.FonkDeneme();
         int c = Fonksiyonlar.IntDeneme(5,10);
         int d = Fonksiyonlar.IntDeneme(5,6,7);
@@ -17,18 +21,15 @@ public class Main {
         y = 5;
         String a = "Araba";
         a.toUpperCase();
-
         double sonuc = Math.pow(5,3);
         Math.abs(-3);
-
         Random yeninesne = new Random();
         int uretilensayi = yeninesne.nextInt(100);
         System.out.println(uretilensayi);
-
-
         System.out.println(sonuc);
-
         Fonksiyonlar.Faktoriyel(5);
+ */
+
 
 
             //Donguler.DonguFonksiyonu();

@@ -97,7 +97,10 @@ public class Donguler {
     public static void RideMethod(){
 
     }
+private static void GizliFonk(){
+        int ilkSayi;
 
+}
 
 
 }
