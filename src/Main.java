@@ -9,7 +9,8 @@ public class Main {
 
 
 
-        Diziler.diziCalisma();
+     //   Diziler.diziCalisma();
+        Diziler.paraUstu();
 
         /*
        // Stringler.StringCalisma();
