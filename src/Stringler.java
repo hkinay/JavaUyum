@@ -5,10 +5,11 @@ public class Stringler {
 
    public static void StringCalisma(){
       int g = 100234;
+      double d = 4.3;
 
       String a = "Esenyurt Belediyesi";
       String b = new String("Esenyurt Belediyesi");
-      System.out.println(a==b);
+      System.out.println(a==b);//false
       System.out.println(a.equals(b));
 
       System.out.println(a.length());//length uzunluğunu gösterir
@@ -27,24 +28,9 @@ public class Stringler {
       System.out.printf("substring başlangıç belirtilerek de kullanılabilir %s%n",a.substring(8));
       System.out.printf("contains String ifadenin istenilen karakteri barındırma kontrolünü yapar %s",a.contains("a"));
       System.out.printf("%s",a.startsWith("B"));
-      System.out.printf("Valueof %s stringe çevirir",a.valueOf(g));
-      //System.out.printf("toString stringe çevirir %s",a.toString(g));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      System.out.printf("Valueof %s stringe çevirir",String.valueOf(g));
+      System.out.printf("toString stringe çevirir %s",Integer.toString(g));
+      System.out.println(Double.toString(d));
 
 
 
