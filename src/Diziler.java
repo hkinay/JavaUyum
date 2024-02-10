@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Diziler {
@@ -7,6 +8,11 @@ public class Diziler {
         sayilar[0] = 10;
         sayilar[1] = 12;
         sayilar[9] = 23;
+
+
+        Arrays.toString(sayilar);
+
+
 
         String[] ogrenciler = {"Ayşe","Mehmet","Hasan","Zeynep"};
         String[] liste2 ={"Kemal","Ali","Beyza"};

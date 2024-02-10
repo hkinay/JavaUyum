@@ -1,0 +1,53 @@
+/* 
+Çok satırlı
+yorum yazılabilir
+
+*/
+
+// TEK SATIR YORUM
+
+Aritmetik Operatörler
+
++ , - , * , / , %(mod)
+
+5 / 2 = 1
+11 / 2 = 1
+
+Atama Operatörleri
+a = a + 2 // a nın değeri 2 artar
+a +=1 // a nın değeri 1 artar
+a++ // a nın değeri 1 artar
+++a // a nın değeri 1 artar
+a += 2 // a nın değeri 2 artar
+a = a + 1
+
+
+NASIL ÇALIŞIYOR
+
+Java uygulaması çalıştırmak için JRE
+Java geliştirmek için gerekli JDK 
+
+Assembly (0 , 1 ) 
+
+Intellij IDEA (IDE)
+
+Mantıksal Operatörler
+
+<,>,<=,>=, == ,!=
+
+break
+
+github
+
+
+Backend 
+Java, Python, Docker
+
+
+
+
+
+
+
+
+

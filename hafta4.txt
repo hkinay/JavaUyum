@@ -1,0 +1,142 @@
+JAVA 
+
+Compiler JDK
+JRE 
+
+
+IDE Integrated Development Environment
+
+Intellij IDEA
+ 
+Visual Studio Code
+Eclipse
+Netbeans
+
+JAVA (Sun Systems, Oracle)
+
+.Net (C,C#,Asp.net)
+Visual Studio
+
+Delphi (Borland)
+
+Python
+GoLang
+
+
+ChatGPT (Microsoft)
+
+
+
+Nesne Tabanlı Programlama
+
+Herşey bir OBJECT sınıfından üretilir
+
+Tam Sayı
+Metin
+"Ahmet"
+
+
+print
+println
+printf
+System.out.println("Merhaba Dünya");
+System.out.print("boşluk yok");
+System.out.printf("Bu yazı biçimi formatlıdır %s ile kullanılır%n","prinf");
+
+DEĞİŞKENLER (Variables)
+
+İlkel Değişkenler (primitive) (Herhangi bir methodu olmayan)
+Short
+Integer - Tam Sayı
+Long
+
+Char
+Boolean (True - False)
+Double
+Float
+Byte
+
+
+
+
+İleri Değişkenler (Advanced) (methodları var)
+
+String - Metin
+Array - Diziler
+
+
+Stack - Heap Bellek JAVA
+
+Koşullar
+
+1) IF koşulcümlesi
+	blok çalışır
+2 ) IF koşulcümlesi
+	Blok çalışır
+ELSE
+blok çalışır
+
+3) IF koşulcümlesi
+	Blok çalışır
+ELSEIF koşulcümlesi
+	blok çalışır
+ELSE
+	blok çalışır
+
+Mantıksal Operatörler
+<, >, <=, >=, == , !=
+
+https://github.com/hkinay/JavaUyum
+
+4 ) Switch - Case
+durum 
+Switch (durum)
+	Case
+	Case
+	Case
+.....
+default
+
+DÖNGÜLER
+
+Tekrar eden bir işleminiz var ise döngüleri kullanılır
+
+ Scanner almak = new Scanner(System.in);
+ System.out.println("Bir sayı giriniz ");     
+ int sayi = almak.nextInt();
+
+INCREMENT(Artırma Operatörü)
+i++;
+i += 1;
+i = i + 1;
+
+i -=1;
+
+Aritmetik Operatörler
++ , - , * , /, %
+
+
+
+
+
+
+Sayı Tahmin Oyunu
+Kullanıcının 3 hakkı var.
+İsterseniz tahmin edilecek olan sayıyı önceden
+belirleyebilirsiniz. 
+Veya Random sınıfı kullanarak bilgisayara rastgele
+sayı ürettirebilirsiniz.
+
+Kullanıcı sayıyı herhangibir deneme sonunda bilirse Tebrikler
+Bilemezse bilemediniz, kalan hakkınız bir azaltarak söylenecek
+Kullanıcın hakkı bittiğinde oyunu kaybettiniz, üretilen sayıyı söyleyecek
+
+
+
+
+
+
+
+
+
+

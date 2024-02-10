@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69551a93-93bf-43ed-8d19-c09209e0e260" name="Changes" comment="Diziler 2.ders">
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUyum/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUyum/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diziler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diziler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hkinay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ab348a79-7d6b-4aa8-a2c6-c000ae671de6" />
+        <option name="url" value="https://github.com/hkinay/JavaUyum.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Stringler.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Zd8hHah4hV2qbbRzCAdDEW1MJb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Kosullar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Kosullar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kosullar" />
+      <module name="JavaUyum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaUyum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Kosullar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69551a93-93bf-43ed-8d19-c09209e0e260" name="Changes" comment="Java Uyum Projesi İlk Ders" />
+      <created>1702740713044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702740713044</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Java Uyum Projesi İkinci Ders">
+      <option name="closed" value="true" />
+      <created>1702744197783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702744197783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java Uyum Projesi İkinci Ders (Switch Eklend)">
+      <option name="closed" value="true" />
+      <created>1702747312593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702747312593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4. Ders Döngüler Anlatıldı">
+      <option name="closed" value="true" />
+      <created>1703349673471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703349673471</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4. Ders Döngüler Anlatıldı">
+      <option name="closed" value="true" />
+      <created>1703349946618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703349946618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4. Ders Döngüler Anlatıldı&#10;Sayı Tahmin Eklendi">
+      <option name="closed" value="true" />
+      <created>1703351613220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703351613220</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Faktoriyel Örneği">
+      <option name="closed" value="true" />
+      <created>1704553764501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553764501</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Faktoriyel Örneği 2">
+      <option name="closed" value="true" />
+      <created>1704556353750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704556353750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="İçiçe Döngü">
+      <option name="closed" value="true" />
+      <created>1704558226908</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704558226908</updated>
+    </task>
+    <task id="LOCAL-00009" summary="İçiçe Döngü break ve continue anlatıldı">
+      <option name="closed" value="true" />
+      <created>1704562187364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704562187364</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fonksiyonlar Anlatıldı">
+      <option name="closed" value="true" />
+      <created>1705162898474</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705162898474</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Recursion Eklendi">
+      <option name="closed" value="true" />
+      <created>1705166278193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705166278193</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Stringler Eklendi">
+      <option name="closed" value="true" />
+      <created>1706976503132</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706976503132</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Stringler 2.ders Eklendi">
+      <option name="closed" value="true" />
+      <created>1706979392665</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706979392665</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Stringler 2.ders Eklendi">
+      <option name="closed" value="true" />
+      <created>1706981018595</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706981018595</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Diziler 1.ders">
+      <option name="closed" value="true" />
+      <created>1707577660685</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707577660685</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Diziler 2.ders">
+      <option name="closed" value="true" />
+      <created>1707579368087</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707579368087</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Uyum Projesi İlk Ders" />
+    <MESSAGE value="Java Uyum Projesi İkinci Ders" />
+    <MESSAGE value="Java Uyum Projesi İkinci Ders (Switch Eklend)" />
+    <MESSAGE value="4. Ders Döngüler Anlatıldı" />
+    <MESSAGE value="4. Ders Döngüler Anlatıldı&#10;Sayı Tahmin Eklendi" />
+    <MESSAGE value="Faktoriyel Örneği" />
+    <MESSAGE value="Faktoriyel Örneği 2" />
+    <MESSAGE value="İçiçe Döngü" />
+    <MESSAGE value="İçiçe Döngü break ve continue anlatıldı" />
+    <MESSAGE value="Fonksiyonlar Anlatıldı" />
+    <MESSAGE value="Recursion Eklendi" />
+    <MESSAGE value="Stringler Eklendi" />
+    <MESSAGE value="Stringler 2.ders Eklendi" />
+    <MESSAGE value="Diziler 1.ders" />
+    <MESSAGE value="Diziler 2.ders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diziler 2.ders" />
+  </component>
+</project>
