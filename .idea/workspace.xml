@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69551a93-93bf-43ed-8d19-c09209e0e260" name="Changes" comment="Diziler 2.ders">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUyum/Diziler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUyum/Diziler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaUyum/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUyum/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diziler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diziler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -232,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707579368087</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Diziler 2.ders">
+      <option name="closed" value="true" />
+      <created>1707580535932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707580535932</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Diziler 2.ders">
+      <option name="closed" value="true" />
+      <created>1707581835394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707581835394</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

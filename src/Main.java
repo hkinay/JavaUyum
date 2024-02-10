@@ -6,14 +6,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+Diziler.ikiBoyutlu();
+/*
+Diziler Çalışmaları
+
+Diziler.diziCalisma();
+Diziler.paraUstu();
+
+
+ */
 
 
 
-     //   Diziler.diziCalisma();
-        Diziler.paraUstu();
-
-        /*
-       // Stringler.StringCalisma();
+       /*
+       //
+       Stringler.StringCalisma();
         Stringler.StringBuilderCalisma();
 */
 

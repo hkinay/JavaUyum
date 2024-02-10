@@ -68,6 +68,41 @@ public class Diziler {
 
     }
 
+    public static void ikiBoyutlu(){
+
+        String [][] isimler = {{"Ahmet","Hasan","Ayşe"},{"Kemal","Fatma","Berk"},{"Asaf","Asım","Salih"}};
+        int sayilar[][]= new int[3][3];
+
+        sayilar[0][0] = 5;
+        sayilar[0][1] = 10;
+        sayilar[0][2] = 15;
+
+        sayilar[1][0] = 20;
+        sayilar[1][1] = 25;
+        sayilar[1][2] = 30;
+
+        sayilar[2][0] = 35;
+        sayilar[2][1] = 40;
+        sayilar[2][2] = 45;
+       // int[][] sayilar2 = {{5,10,15},{20,25,30},{35,40,45}};
+
+
+
+      //  System.out.println(isimler[1][2]);
+
+        for (int i = 0; i < sayilar.length; ++i) {
+            for (int j = 0; j < sayilar[i].length; ++j) {
+                System.out.print(sayilar[i][j]+ " ");
+
+            }
+            System.out.println();
+
+        }
+
+
+
+    }
+
 
 
 
