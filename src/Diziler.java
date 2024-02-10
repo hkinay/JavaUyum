@@ -102,6 +102,37 @@ public class Diziler {
 
 
     }
+    public static void ikiBoyutluKorelasyon(){
+        int tablo[][] = new int[5][5];
+
+        /*
+        tablo[0][0] = 0;
+        tablo[1][1] = 0;
+        tablo[1][2] = 1;
+        tablo[2][1] = -1;
+        */
+        for (int i = 0; i < tablo.length; i++) {
+            for (int j = 0; j < tablo[i].length; j++) {
+                if(i==j)
+                    tablo[i][j]=0;
+                else if (i<j) {
+                    tablo[i][j] = 1;
+
+                }
+                else {
+                    tablo[i][j]=-1;
+                }
+
+                System.out.print(tablo[i][j]+ " ");
+
+            }
+
+
+        }
+
+
+
+    }
 
 
 
