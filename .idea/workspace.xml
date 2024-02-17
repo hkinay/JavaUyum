@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69551a93-93bf-43ed-8d19-c09209e0e260" name="Changes" comment="Diziler 3.ders">
+    <list default="true" id="69551a93-93bf-43ed-8d19-c09209e0e260" name="Changes" comment="Diziler Tekrar Dersi Yapıldı">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/BeyazYaka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Guvenlik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Hizmetli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Idari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Personel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUyum/Diziler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUyum/Diziler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaUyum/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUyum/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diziler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diziler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +68,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -111,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702740713044</updated>
-      <workItem from="1708180148166" duration="4857000" />
+      <workItem from="1708180148166" duration="8556000" />
     </task>
     <task id="LOCAL-00001" summary="Java Uyum Projesi İkinci Ders">
       <option name="closed" value="true" />
@@ -265,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707583383134</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Diziler Tekrar Dersi Yapıldı">
+      <option name="closed" value="true" />
+      <created>1708185919770</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708185919770</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +302,7 @@
     <MESSAGE value="Diziler 1.ders" />
     <MESSAGE value="Diziler 2.ders" />
     <MESSAGE value="Diziler 3.ders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diziler 3.ders" />
+    <MESSAGE value="Diziler Tekrar Dersi Yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diziler Tekrar Dersi Yapıldı" />
   </component>
 </project>

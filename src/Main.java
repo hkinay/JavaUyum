@@ -1,3 +1,7 @@
+import OOP.Hizmetli;
+import OOP.Idari;
+import OOP.Personel;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -6,16 +10,25 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        Idari idari = new Idari();
+
+        idari.calismasekli();
+
+
+        Hizmetli hizmetli = new Hizmetli("Hüseyin","11","23232",4500,"Sabah");
+
+        hizmetli.bilgiGoster();
 
 
 
-Diziler.diziKarsilastirma();
+
 
 
 /*
 
 
 Diziler Çalışmaları
+Diziler.diziKarsilastirma();
 Diziler.ikiBoyutluKorelasyon();
  Diziler a_tech = new Diziler();
       a_tech.paraUstu(678);
