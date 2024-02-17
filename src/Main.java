@@ -6,12 +6,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-Diziler.ikiBoyutlu();
+
+
+
+Diziler.diziKarsilastirma();
+
+
 /*
+
+
 Diziler Çalışmaları
+Diziler.ikiBoyutluKorelasyon();
+ Diziler a_tech = new Diziler();
+      a_tech.paraUstu(678);
+
+        System.out.println("---------------------");
+      Diziler v_data= new Diziler();
+      v_data.paraUstu(456);
+
 
 Diziler.diziCalisma();
-Diziler.paraUstu();
+Diziler.ikiBoyutlu();
 
 
  */

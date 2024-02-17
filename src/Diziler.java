@@ -2,7 +2,46 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Diziler {
-    public static void diziCalisma(){
+
+    public static void diziKarsilastirma() {
+        int[] ikinciDizi = {3, 4, 5, 6, 7, 8, 9};
+        int[] UcuncuDizi = {3, 4, 5, 6, 7, 8, 9};
+        int[] DorduncuDizi = {3, 4, 5, 10, 7, 8, 9};
+
+
+        int[] dorduncuDizi; //NULL
+
+
+        if (ikinciDizi == UcuncuDizi)
+            System.out.println("ID aynıdır");
+        else
+            System.out.println("ID Farklıdır");
+
+        System.out.println(Arrays.equals(ikinciDizi, UcuncuDizi));
+        Arrays.sort(DorduncuDizi);
+
+        for (int i = 0; i < DorduncuDizi.length; i++) {
+            System.out.print(DorduncuDizi[i]);
+
+        }
+
+    }
+
+
+       public static void diziCalisma(){
+
+     /*   int[] arrayAdi = new int[5];
+
+        Scanner al2 = new Scanner(System.in);
+        for (int i = 0; i < arrayAdi.length; i++) {
+            arrayAdi[i] = al2.nextInt();
+            System.out.println(arrayAdi[i]);
+        }
+*/
+
+
+
+
         int [] sayilar = new int[10];
 
         sayilar[0] = 10;
@@ -40,7 +79,7 @@ public class Diziler {
             System.out.print(sayilar[b]+" ");
         }
     }
-    public static void paraUstu(){
+    public void paraUstu(int para){
 
         int[] tedavul = new int[7];
         tedavul[0] = 200;
@@ -53,9 +92,10 @@ public class Diziler {
 
         //int [] tedavul = {200,100,50,20,10,5,1};
 
-        Scanner al = new Scanner(System.in);
+       /* Scanner al = new Scanner(System.in);
         System.out.println("Para Üstünü Giriniz : ");
         int para = al.nextInt();
+*/
 
         for (int i = 0; i < tedavul.length; i++) {
             int sayi = para/tedavul[i];
@@ -70,7 +110,10 @@ public class Diziler {
 
     public static void ikiBoyutlu(){
 
-        String [][] isimler = {{"Ahmet","Hasan","Ayşe"},{"Kemal","Fatma","Berk"},{"Asaf","Asım","Salih"}};
+        String [][] isimler = {{"Ahmet","Hasan","Ayşe"},{"Kemal","Fatma","Berk"},{"Asaf","Asım","Salih"},{"Jale","Tuncay","Melike"}};
+        System.out.println(isimler[2][1]);
+
+
         int sayilar[][]= new int[3][3];
 
         sayilar[0][0] = 5;
@@ -84,6 +127,9 @@ public class Diziler {
         sayilar[2][0] = 35;
         sayilar[2][1] = 40;
         sayilar[2][2] = 45;
+
+
+
        // int[][] sayilar2 = {{5,10,15},{20,25,30},{35,40,45}};
 
 
@@ -103,8 +149,9 @@ public class Diziler {
 
     }
     public static void ikiBoyutluKorelasyon(){
-        int tablo[][] = new int[5][5];
 
+     //   int [][]  tablo2 = {{2,3,4,5,6},{10,11,12,13,14}}
+        int tablo[][] = new int[5][5];
         /*
         tablo[0][0] = 0;
         tablo[1][1] = 0;
@@ -126,6 +173,7 @@ public class Diziler {
                 System.out.print(tablo[i][j]+ " ");
 
             }
+            System.out.println();
 
 
         }
